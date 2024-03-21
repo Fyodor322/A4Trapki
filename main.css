@@ -1,6 +1,6 @@
 body{
     margin: 0;
-        font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 header{
@@ -28,6 +28,7 @@ header{
     border: 0;
     display: flex;
     width: 46%;
+    max-width: 875px;
 }
 
 header input{
@@ -87,6 +88,10 @@ main{
     background-color: rgba(255, 236, 2, 1);
     cursor: pointer;
 
+}
+
+.product_cart button:hover{
+    background-color: rgb(255 244 106);
 }
 
 .product_carts{
@@ -151,9 +156,13 @@ main{
 .filtrs{
     width: 300px;
     height: 800px;
-    background-color: #e8e8e8;
+    /* background-color: #e8e8e8; */
     margin: 20px 0 0 auto;
     border-radius: 10px;
+}
+
+#price{
+    margin-left: 30px;
 }
 
 .filtrSection{
@@ -162,13 +171,37 @@ main{
     justify-content: center;
 }
 
+.windMoney{
+    display: flex;
+    margin-left: 30px;
+}
+
+.windMoney input{
+    width: 108px;
+    margin: 0 auto 0 0;
+    height: 40px;
+    border: 2px #e8e8e8 solid;
+    border-radius: 10px;
+}
+
+.Availability{
+    margin: 50px 0;
+    margin-left: 30px;
+}
+
+.state{
+    margin: 50px 0;
+}
+
 .switch{
     display: inline-block;
     position: relative;
     width: 60px;
     height: 34px;
 
-    background-color: red;
+    border-radius: 34px;
+
+    background-color: #e8e8e8;
 }
 
 .switch__input{
@@ -184,10 +217,8 @@ main{
     left: 0;
     right: 0;
     bottom: 0;
-
     border-radius: 34px;
-
-    background-color: #f51313;
+    background-color: #e8e8e8;
 }
 
 .switch__slider::before{
@@ -202,5 +233,96 @@ main{
 
     border-radius: 50%;
 
+    transition: 0.4s;
     background-color: white;
+}
+
+.switch__input:focus + .switch__slider{
+    box-shadow: 0 0 1px rgb(255 244 106);
+}
+
+.switch__input:checked + .switch__slider{
+    background-color: rgba(255, 236, 2, 1);
+    transition: 0.4s;
+}
+
+.switch__input:checked + .switch__slider::before{
+    transform: translateX(26px);
+    transition: 0.4s;
+}
+
+.state{
+    margin-left: 30px;
+}
+
+.state label{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.color{
+    margin-left: 30px;
+}
+
+.color_color{
+    margin: 10px 0;
+}
+
+.color_color span{
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    margin: -5px 5px 0 0;
+}
+
+.color label{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.color_red span{
+    background-color: red;
+}
+
+.color_green span{
+    background-color: green;
+}
+
+.color_blue span{
+    background-color: blue;
+}
+
+.color_brown span{
+    background-color: brown;
+}
+
+.color_yellow span{
+    background-color: yellow;
+}
+
+.color_grey span{
+    background-color: grey;
+}
+
+
+
+.filtrs button{
+    width: 270px;
+    height: 40px;
+    border: 0;
+    background-color: rgba(255, 236, 2, 1);
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 50px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.filtrs button:hover{
+    background-color: rgb(255 244 106);
 }

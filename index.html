@@ -40,18 +40,72 @@
             <img src="img/filtr.png" alt="">
             </div>
             <div class="filtrs">
-                <h3>Цена,₽</h3>
-                <div>
-                    <input type="number" class="priceStart">
-                    <input type="number" class="priceEnd">
+                <h3 id="price">Цена,₽</h3>
+                <div class="windMoney">
+                    <input type="number" class="priceStart" placeholder="от 300">
+                    <input type="number" class="priceEnd" placeholder="до 1500">
                 </div>
-                <div>
+                <div class="Availability">
                     <h3>Есть в наличии</h3>
                     <label class="switch">
                         <input type="checkbox" class="switch__input">
                         <span class="switch__slider"></span>
                     </label>
                 </div>
+                <div class="state">
+                    <h3>Состояние товара</h3>
+                    <input type="radio" value="New" name="sost">
+                    <label for="New" class="radio-style">Новый</label>
+                    <input type="radio" value="Uzenk" name="sost">
+                    <label for="Uzenk" class="radio-style">Уценка</label>
+                </div>
+                <div class="color">
+                    <h3>Цвет</h3>
+                    <div class="color_red color_color">
+                        <input type="checkbox" value="red">
+                        <label for="red">
+                            <span></span>
+                            Красный
+                        </label>
+                    </div>
+                    
+                    <div class="color_green color_color"  class="color_color">
+                        <input type="checkbox" value="green">
+                        <label for="green">
+                            <span></span>
+                            Зелёный
+                        </label>
+                    </div>
+                    <div class="color_blue color_color">
+                        <input type="checkbox" value="blue">
+                        <label for="blue">
+                            <span></span>
+                            Синий
+                        </label>
+                    </div>
+                    <div class="color_brown color_color">
+                        <input type="checkbox" value="brown">
+                        <label for="brown">
+                            <span></span>
+                            Коричневый
+                        </label>
+                    </div>
+                    <div class="color_yellow color_color">
+                        <input type="checkbox" value="yellow">
+                        <label for="yellow">
+                            <span></span>
+                            Жёлтый
+                        </label>
+                    </div>
+                    <div class="color_grey color_color">
+                        <input type="checkbox" value="grey">
+                        <label for="grey">
+                            <span></span>
+                            Серый
+                        </label>
+                    </div>
+                </div>
+                <button>Применить</button>
             </div>    
         </section>
         
