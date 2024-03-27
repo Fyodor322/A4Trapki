@@ -13,16 +13,20 @@
     cursor: pointer;
 }
 
+.back{
+
+}
+
 .photoKarusel{
     display: flex;
     flex-direction: column;
-
+    margin: 0 0 0 auto;
 }
 
 .photoKaruselDiv{
     display: flex;
     flex-direction: column;
-    margin: 115px 65px;
+    margin: 115px 30px;
 }
 
 .photoKarusel img {
@@ -49,7 +53,7 @@
 }
 
 .description{
-    margin: 30px 0 0 50px;
+    margin: 30px 50px 0 50px;
 }
 
 .description h2{
@@ -82,4 +86,50 @@
 .ocenkaNum{
     margin-right: 6px;
     font-size: 20px;
+}
+
+.price{
+    margin: 30px auto 0 0;
+}
+
+.price h3::after{
+    content: "₽";
+}
+
+.priceCart{
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f7f5;
+    width: 338px;
+    border-radius: 10px;
+    margin-right: 30px
+}
+
+
+.priceCart h3{
+    font-size: 30px;
+    color: #006933;
+    margin: 18px 0 30px 15px;
+}
+
+.priceCartBut{
+    width: 90%;
+    margin: 0 auto;
+    border: 0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.priceCartBut p{
+    margin: 10px 0;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.korz{
+    background-color: rgba(255, 236, 2, 1);
+}
+
+.buy{
+    background-color: #b6b6b6;
 }
