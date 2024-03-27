@@ -326,3 +326,24 @@ main{
 .filtrs button:hover{
     background-color: rgb(255 244 106);
 }
+
+footer{
+    height: 200px;
+    background-color: rgb(56, 56, 56);
+}
+
+footer a {
+    color: rgba(255, 236, 2, 1);
+    margin: 0 auto;
+    font-size: 32px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.navFooter{
+    margin: auto;
+    display: flex;
+    width: 55%;
+    transform: translateY(82px);
+}
