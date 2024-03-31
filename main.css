@@ -407,38 +407,3 @@ main{
 .filtrs button:hover{
     background-color: rgb(255 244 106);
 }
-
-footer{
-    height: 200px;
-    background-color: rgb(56, 56, 56);
-}
-
-.navFooter{
-    max-width: 1400px;
-    display: flex;
-    margin: 0 auto 0 0 ;
-}
-
-.navFooter div{
-    width: 46%;
-    margin: 0 auto;
-    display: flex;
-}
-
-.navFooter button{
-    height: 48px;
-    background-color: rgb(56, 56, 56);
-    border: 0;
-    margin: auto;
-}
-
-.navFooter a{
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-}
-
-.navFooter a:hover{
-    color:rgba(255, 236, 2, 1);
-    transition: 0.3s;
-}
