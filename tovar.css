@@ -1,0 +1,159 @@
+.lupa_class{
+    margin-left: auto;
+}
+
+.reg-in-kab{
+    display: flex;
+    margin: auto 0
+}
+
+.reg-in-kab img{
+    height: 45px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+
+.photoKarusel{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 auto;
+}
+
+.photoKaruselDiv{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 30px;
+}
+
+.photoKarusel img {
+    width: 110px;
+    border-radius: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.photoKarusel img:hover{
+    border: 1px solid black;
+    width: 108px;
+}
+
+.photoKaruselActive img{
+    border: 2px solid black;
+    width: 106px;
+}
+
+.mainPhoto{
+    width: 80%;
+    display: flex;
+}
+
+.mainPhoto img{
+    width: 100%;
+    margin: auto 0;
+    border-radius: 10px;
+    cursor: pointer;
+    min-width: 280px;
+}
+
+.description{
+    margin: 30px 50px 0 50px;
+    width: 400px;
+}
+
+.description h2{
+    width: 350px;
+}
+
+.rating-result {
+	width: 265px;
+
+}
+.rating-result span {
+	padding: 0;
+	font-size: 22px;
+	margin: 0;
+	line-height: 1;
+	color: lightgrey;
+}
+.rating-result > span:before {
+	content: '★';
+}
+.rating-result > span.active {
+	color: gold;
+}
+
+.ocenka{
+    display: flex;
+    font-weight: 600;
+}
+
+.ocenkaNum{
+    margin-right: 6px;
+    font-size: 20px;
+}
+
+.price{
+    margin: 30px auto 0 0;
+}
+
+.price h3::after{
+    content: "₽";
+}
+
+.priceCart{
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f7f5;
+    width: 338px;
+    border-radius: 10px;
+    margin-right: 30px
+}
+
+
+.priceCart h3{
+    font-size: 30px;
+    color: #006933;
+    margin: 18px 0 30px 15px;
+}
+
+.priceCartBut{
+    width: 90%;
+    margin: 0 auto;
+    border: 0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.priceCartBut p{
+    margin: 10px 0;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.korz{
+    background-color: rgba(255, 236, 2, 1);
+}
+
+.buy{
+    background-color: #b6b6b6;
+}
+
+.descriptionKod{
+    display: flex;
+}
+
+
+.descriptionKod span:last-child{
+    margin: 0 0 0 auto;
+}
+
+.property{
+    color: #747474;
+}
+
+.descriptionSvoistva{
+    margin-top: 10px;
+}

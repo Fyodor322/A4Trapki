@@ -6,10 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="adaptiv.css">
 </head>
 <body>
     <header>
         <section class="header">
+            <button class="hamburger" id="mobile-menu-btn">
+                <div class="btn__hamb">
+                    <div></div>
+                </div>
+            </button>
             <img src="img/logo.png" class="logo_header">    
             <div class="header_input">
                 <input type="text">
@@ -22,15 +28,28 @@
                 <img src="img/registration.png" alt="">
                 <img src="img/vhod.png" alt="">
             </div>
-            
+            <div class="header_input">
+                <input type="text">
+                <div class="lupa_class">
+                    <img src="https://cdn.icon-icons.com/icons2/2406/PNG/512/search_magnifier_icon_145939.png" class="lupa_poisk">
+                </div> 
+            </div>
         </section>
+        
     </header>
+    <section class="navUnderHeader">
+        <div>
+            <button><a href="">Главная</a></button>
+            <button><a href="">О нас</a></button>
+            <button><a href="">Контакты</a></button>
+        </div>
+    </section>
 
     <div class="params">
         <h2>Тряпки на любые случаи жизни</h2>
     </div>
 
-    <main>
+    <main class="main_main">
 
         
         <section class="filtrSection">
@@ -111,18 +130,20 @@
         
 
         <section class="product_carts">
-           
-           <div class="product_cart">
-            <img src="https://tkanitex.ru/wp-content/uploads/2016/12/tryapka-polovaya-2-1.png" alt="">
-            <h3>111₽</h3>
-            <h4>Половая тряпка</h4>
-            <button>
-                <h4>
-                   В корзину 
-                </h4>
-            </button>
+           <a href="tovar.html">
+                <div class="product_cart">
+                <img src="https://tkanitex.ru/wp-content/uploads/2016/12/tryapka-polovaya-2-1.png" alt="">
+                <h3>111₽</h3>
+                <h4>Половая тряпка</h4>
+                <button>
+                    <h4>
+                        В корзину 
+                    </h4>
+                </button>
            </div>
-           <div class="product_cart">
+           </a>
+           <a href="tovar.html"">
+            <div class="product_cart">
             <img src="https://storage.yandexcloud.net/mostro-gm-media/29b46dc7-b675-f878-e86a-a3f44913eacd/6TD5EKT.jpg" alt="">
             <h3>111₽</h3>
             <h4>Половая тряпка</h4>
@@ -132,6 +153,8 @@
                 </h4>
             </button>
            </div>
+           </a>
+           
            <div class="product_cart" id="cart3">
             <img src="https://teomart.ru/image/cache/catalog/tovar/2-vse-dlya-doma/25-dlya-kuhni/2533-1-800x800.jpg" alt="">
             <h3>111₽</h3>
@@ -236,7 +259,16 @@
 
     </main>
     <footer>
-
+        <section class="header">
+            <img src="img/logo.png" class="logo_header">
+            <section class="navFooter">
+                <div>
+                    <button><a href="">Главная</a></button>
+                    <button><a href="">О нас</a></button>
+                    <button><a href="">Контакты</a></button>
+                </div>
+            </section>
+        </section>
     </footer>
 </body>
 </html>

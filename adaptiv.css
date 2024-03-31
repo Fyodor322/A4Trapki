@@ -1,1 +1,67 @@
-/* сделать родительскому элементу уменьшенный width  */
+@media(max-width: 1270px){
+    header{
+        height: 150px;
+        
+    }
+    .main_tovar{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .photoKarusel{
+        margin: 0 auto; 
+    }
+    .photoKarusel img{
+        margin: 0 10px;
+    }
+    .photoKaruselDiv{
+        flex-direction: row;
+        
+    }
+    .mainPhoto{
+        margin: 0 auto;
+    }
+    .mainPhoto img{
+        width: 52%;
+        margin: 0 auto;
+    }
+    .description{
+        margin: 30px auto;
+    }
+    .price{
+        margin: 30px auto;
+    }
+}
+@media(max-width: 600px){
+    header{
+        height: 100px;
+    }
+    .logo_header{
+        margin: auto 0 auto 10px;
+    }
+    .lupa_class{
+        margin: 0;
+        margin-left: 0;
+    }
+    .lupa_poisk{
+        margin: 0;
+        background: 0;
+    }
+    .header_input{
+        display: none;
+    }
+    .reg-in-kab{
+        margin: auto 10px;
+        height: 25%;
+    }
+    .reg-in-kab img{
+        height: 100%;
+    }
+    .navUnderHeader{
+        display: none;
+    }
+    .hamburger{
+        display: inline-block;
+    }
+    
+
+}
