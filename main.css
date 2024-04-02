@@ -30,6 +30,15 @@ header{
     max-width: 875px;
 }
 
+.header_input_600px{
+    height: 25%;
+    margin: auto 68px auto 68px;
+    border: 0;
+    width: 60%;
+    max-width: 875px;
+    display: none;
+}
+
 header input{
     background-color: rgb(102, 102, 102);
     outline: none;
@@ -130,7 +139,7 @@ main{
 
 .product_cart{
     /* height: 300px; */
-    width: 300px;
+    width: 95%;
     /* background-color: #e8e8ee; */
     margin: 15px 20px;
     display: flex;
@@ -191,8 +200,7 @@ main{
 }
 
 .product_cart img{
-    width: 300px;
-    height: 300px;
+    width: 100%;
     border-radius: 10px
 }
 
@@ -406,4 +414,20 @@ main{
 
 .filtrs button:hover{
     background-color: rgb(255 244 106);
+}
+
+.filtrsBurger{
+    display: none;
+    background-color: white;
+    border: 0;
+    margin: 20px;
+}
+
+.filtrsBurger h5{
+    margin: 0;
+    font-size: 18px;
+}
+
+.filtrsBurger img{
+    width: 20px;
 }
