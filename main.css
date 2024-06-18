@@ -139,7 +139,7 @@ main{
 
 .product_cart{
     /* height: 300px; */
-    width: 95%;
+    width: 25%;
     /* background-color: #e8e8ee; */
     margin: 15px 20px;
     display: flex;
@@ -154,16 +154,21 @@ main{
     text-decoration: none;
 }
 
+.product_cart h3::after{
+    content: "₽";
+}
+
 .product_cart:hover{
     box-shadow: -8px 8px 20px 0px #e8e8ee;
     transition: 0.3s;
 }
 
-.product_cart h3{
+.product_cart h4{
     margin: 10px 0;
     color: black;
+    margin-top: auto;
 }
-.product_cart h4{
+.product_cart h5{
     margin: 0;
     color: black;
 }
@@ -248,6 +253,10 @@ main{
     /* background-color: #e8e8e8; */
     margin: 20px 0 0 auto;
     border-radius: 10px;
+}
+
+.CategoryFiltr{
+    margin: 20px 0 0 20px;
 }
 
 #price{

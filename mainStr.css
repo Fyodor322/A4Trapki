@@ -1,0 +1,43 @@
+.banner{
+    display: flex;
+    margin: 30px auto;
+    width: 95%;
+    border-radius: 15px;
+    /* height: 500px; */
+    background-image: url(https://flomaster.top/o/uploads/posts/2024-02/1708597431_flomaster-top-p-zheltii-abstraktnii-fon-instagram-narisova-4.jpg);
+}
+
+main section{
+    width: 100%;
+}
+
+.banner h1{
+    font-size: 64px;
+    padding: 70px 0 0 80px;
+}
+
+.banner h4{
+    padding: 100px 0px 0 80px;
+    color: rgb(102, 102, 102);
+    font-size: 40px;
+}
+
+.banner h5{
+    padding: 16px 0 70px 80px;
+    color: rgb(102, 102, 102);
+    font-size: 35px;
+}
+
+.indus{
+    width: 41%;
+    height: 100%;
+}
+
+.product_cartMain{
+    width: 20% !important;
+}
+
+h2{
+    margin-left: 30px;
+    color: rgb(169 160 42);
+}

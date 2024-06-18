@@ -32,6 +32,11 @@
         margin: 30px auto;
     }
 }
+@media(max-width: 780px){
+    .product_cartMain{
+        font-size: 12px;
+    }
+}
 @media(max-width: 600px){
 
     .header_input{
