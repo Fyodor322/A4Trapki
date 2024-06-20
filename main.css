@@ -220,6 +220,11 @@ main{
     height: 25%;
 }
 
+.reg-in-kab a{
+    max-width: 50px;
+    margin-right: 10px;
+}
+
 .reg-in-kab img{
     height: 100%;
     margin-right: 10px;
